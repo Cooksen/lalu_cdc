@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    distDir: 'build',
     reactStrictMode: false,
     trailingSlash: true,
     basePath: process.env.NODE_ENV === 'production' ? '/sakai-react' : '',
